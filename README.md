@@ -1,3 +1,4 @@
+![Snowflake Logo](./snowflakecomputing.png)
 # Welcome to the OKC Snowflake Cloud Data Warehouse User Group!
 
 This group is dedicated to sharing technical best practices for using the Snowflake Cloud Data Warehouse!
