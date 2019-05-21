@@ -1,5 +1,8 @@
-# Welcome to the OKC Snowflake Cloud Data Warehouse User Group!
+# OKC Snowflake Meetup Repo
+Welcome to the OKC Snowflake Cloud Data Warehouse User Group!
+
 ![Snowflake Logo](./snowflakeLogo.svg)
+
 This group is dedicated to sharing technical best practices for using the Snowflake Cloud Data Warehouse!
 
 All skill levels are welcome, but our main focus will be in hands-on collaboration, so get ready to put your hands on the keyboard!
