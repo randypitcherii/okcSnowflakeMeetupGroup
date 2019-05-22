@@ -36,7 +36,7 @@ ORDER BY
 // Let's shift to some weather data.
 
 // How many weather records are there?
-SELECT COUNT(*) FROM SNOWFLAKE_SAMPLE_DATA.WEATHER.WEATHER_14_TOTAL;
+SELECT COUNT(*) / 1000 / 1000 FROM SNOWFLAKE_SAMPLE_DATA.WEATHER.WEATHER_14_TOTAL;
 
 // View the semi-strucutred data directly in the table
 SELECT 
