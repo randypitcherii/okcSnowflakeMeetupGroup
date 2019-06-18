@@ -1,7 +1,7 @@
 # Meetup 2 | June 21, 2019
 Welcome to round 2! In this meetup, we're going to give you the tools you'll need to build a clean and secure Snowflake instance.
 
-We're going to focus on the most common activities needed to standup a fictitious `SALES` database to be used by the following peronas:
+We're going to focus on the most common activities needed to standup a fictitious `SALES` database to be used by the following personas:
 - the snowflake administrator (you)
 - the data engineer
 - the data scientist
