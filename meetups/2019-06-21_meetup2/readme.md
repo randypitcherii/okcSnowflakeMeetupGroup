@@ -14,7 +14,18 @@ Before you get started, make sure you have access to a snowflake account that yo
 
 If this is your first meetup event, also be sure to [run this basic setup script in Snowflake](../../meetupEnvironmentSetup.sql). This will create some core objects that are used across multiple meetups.
 
+## Snowflake Security Concepts
+TODO - write these
+
 ## Setup
 While there is rarely a "right" way to organize your Snowflake instance, there are certainly "wrong" ways to do so. For today, we're going to create an entirely new database aligned to our business activities. Future meetups will work to use the `OKC_MEETUP_DB`.
 
 [Run this SQL script to create our top level objects and our security entities.](./sql/salesSetup.sql)
+
+## Sales Administrator Tasks
+
+
+## User Creation and Role Assignment
+
+
+## Teardown
