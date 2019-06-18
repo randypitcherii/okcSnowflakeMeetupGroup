@@ -64,25 +64,8 @@ CREATE WAREHOUSE IF NOT EXISTS
   INITIALLY_SUSPENDED=TRUE;
 
 // grant ownership of top level objects
-GRANT OWNERSHIP ON DATABASE OKC_MEETUP_DB               TO ROLE OKC_MEETUP_SALES_ADMIN;
+GRANT OWNERSHIP ON DATABASE OKC_MEETUP_SALES_DB         TO ROLE OKC_MEETUP_SALES_ADMIN;
 GRANT OWNERSHIP ON WAREHOUSE OKC_MEETUP_SALES_DEV_WH    TO ROLE OKC_MEETUP_SALES_DATA_ENGINEER;
 GRANT OWNERSHIP ON WAREHOUSE OKC_MEETUP_SALES_BI_WH     TO ROLE OKC_MEETUP_SALES_DATA_ENGINEER; // our data engineers will own this
 GRANT OWNERSHIP ON WAREHOUSE OKC_MEETUP_SALES_DS_WH     TO ROLE OKC_MEETUP_SALES_DATA_SCIENTIST;
-//=================================================================================
-
-
-//=================================================================================
-// create meetup resources
-//=================================================================================
-USE ROLE OKC_MEETUP_ROLE;
-USE WAREHOUSE OKC_MEETUP_WH;
-
-// build a home for our raw data
-CREATE SCHEMA IF NOT EXISTS OKC_MEETUP_DB.RAW_DATASETS;
-
-// create a file format definition for loading raw data later
-CREATE FILE FORMAT 
-  OKC_MEETUP_DB.RAW_DATASETS.CSV_WITH_HEADER_AND_TEXT_FIELDS 
-  SKIP_HEADER = 1 
-  FIELD_OPTIONALLY_ENCLOSED_BY = '\042';
 //=================================================================================
