@@ -23,9 +23,16 @@ While there is rarely a "right" way to organize your Snowflake instance, there a
 [Run this SQL script to create our top level objects and our security entities.](./sql/salesSetup.sql)
 
 ## Sales Administrator Tasks
+Now that we've finished doing things that must be done with high privelege, lets drop down to the `SALES_ADMIN` role and continue building our environment with more restricted permissions.
 
+[Run this SQL script to finish building our sales environment.](./sql/salesAdministration.sql)
 
-## User Creation and Role Assignment
+## User Creation
+Our Sales environment is now ready to use. Let's see how to create user accounts for user access as well as how we can setup service accounts for BI tools.
 
+[Run this SQL script to create users in our instance.](./sql/userCreation.sql)
 
 ## Teardown
+Now that we've had our fun, you can run this script to undo all our hard work. It's nice to see how this is done so you can practice keeping your Snowflake environment tidy.
+
+[Run this SQL script to clean up.](./sql/salesTeardown.sql)
