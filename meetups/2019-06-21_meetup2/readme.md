@@ -13,7 +13,13 @@ After this meetup, you should have the skills to avoid the major headaches that 
 Before you get started, make sure you have access to a snowflake account that you can be admin of. If this isn't your work instance (or you don't have a work instance), [it's simple to sign up for a new account with tons of free credits here](https://trial.snowflake.com/).
 
 ## Snowflake Security Concepts
-TODO - write these
+In 3 short diagrams, let's explore the foundational concepts in Snowflake's security model:
+
+![Snowflake Logo](./snowflake_securityEntities.png)
+
+![Snowflake Logo](./snowflake_parentRoles.png)
+
+![Snowflake Logo](./snowflake_permissionExample.png)
 
 ## Setup
 While there is rarely a "right" way to organize your Snowflake instance, there are certainly "wrong" ways to do so. For today, we're going to create an entirely new database aligned to our business activities. Future meetups will work to use the `OKC_MEETUP_DB`.
