@@ -16,3 +16,4 @@ Our events will take place monthly at different venues around the city (reach ou
 | 2019-06-21 | [Intro to Snowflake Administration](./meetups/2019-06-21_meetup2) |
 | 2019-07-26 | [ELT over ETL | Working with Transformations in Fivetran (Presented by Fivetran)](./meetups/2019-07-26_meetup3) |
 | 2019-09-13 | [Artisanal Data Pipelines | Best Practices for External Staging in AWS and Azure](./meetups/2019-09-13_meetup4) |
+| 2019-10-24 | [Your Data Visualization Survival Kit (for the coming zombie apocalypse!)](./meetups/2019-10-24_meetup5) |
