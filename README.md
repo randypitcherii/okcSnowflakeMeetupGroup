@@ -9,5 +9,10 @@ All skill levels are welcome, but our main focus will be in hands-on collaborati
 
 Our events will take place monthly at different venues around the city (reach out if you're interested in hosting an event).
 
-## Repo Structure
-This repo is intended to host the code and other materials we use at our meets. See our past event information here and get ready for upcoming meets!
+## Meetups
+| Date | Event Content | 
+|------|---------------|
+| 2019-05-22 | [Hands-on Introduction to Snowflake!](./meetups/2019-05-22_meetup1) |
+| 2019-06-21 | [Intro to Snowflake Administration](./meetups/2019-06-21_meetup2) |
+| 2019-07-26 | [ELT over ETL | Working with Transformations in Fivetran (Presented by Fivetran)](./meetups/2019-07-26_meetup3) |
+| 2019-09-13 | [Artisanal Data Pipelines | Best Practices for External Staging in AWS and Azure](./meetups/2019-09-13_meetup4) |
